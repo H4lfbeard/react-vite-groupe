@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+	const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<>
+			<div>
+				<a
+					href="https://playvalorant.com/fr-fr/platform-selection/?gad_source=1&gclid=Cj0KCQjw7Py4BhCbARIsAMMx-_KGflUjh41oZP7LwBygO0eEw9bLKNEoVlVCn8bJv9UR5XJo0nNVCigaAk58EALw_wcB&gclsrc=aw.ds"
+					target="_blank"
+				>
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg"
+						className="logo"
+						alt="Valorant logo"
+					/>
+				</a>
+			</div>
+			<h1>Choose your team</h1>
+			<div className="card">
+				{/* <button onClick={() => setCount((count) => count + 1)}>
+					count is {count}
+				</button> */}
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
