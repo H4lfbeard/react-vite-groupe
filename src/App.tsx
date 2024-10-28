@@ -1,6 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 			<div>
 				<a
 					href="https://playvalorant.com/fr-fr/platform-selection/?gad_source=1&gclid=Cj0KCQjw7Py4BhCbARIsAMMx-_KGflUjh41oZP7LwBygO0eEw9bLKNEoVlVCn8bJv9UR5XJo0nNVCigaAk58EALw_wcB&gclsrc=aw.ds"
-					target="_blank"
+					target="_blank" rel="noreferrer"
 				>
 					<img
 						src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg"
